@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Nicholas Correa
+EMAIL: nrcorrea@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Nicholas Correa">
+    <meta name="description" content="NicholasCorrea">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- you would link to an external stylesheet here! -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/099eaf81da.js" crossorigin="anonymous"></script>
+    <!-- you would also link to Bootstrap here! -->
+    <title>Nicholas Correa Personal Portfolio Website</title>
+</head>
+
+<body>
+
+    <!-- header section and menu-->
+
+    <header>
+        <div class="container">
+            <nav>
+                <img src="images/N.png" class="logo" alt="letter N logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><span class="fa-solid fa-xmark" onclick="closemenu()"></span></li>
+                </ul>
+                <span class="fa-solid fa-bars" onclick="openmenu()"></span>
+            </nav>
+            <div class="header-text">
+                <h1>Nicholas Correa</h1>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- about section-->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/abmeimage.jpg" class="abmeimage" alt="Image of Nicholas Correa">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>
+                        Hello! I am a software engineer located in Los Angeles California.<br>
+                        I love working on projects and learning new languages.<br>
+                        Some of my hobbies are working out, playing soccer, going to the beach, and playing some
+                        videogames.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coding</span><br>Familiar with many different languages.<br> Some are the
+                                following: C++, Java,
+                                Python, C.</li>
+                            <li><span>ML/AI</span><br>Experience working with AI, <br>collecting and formatting data
+                                along with
+                                training
+                                and testing.</li>
+                            <li><span>Linux</span><br>Familiar working with linux systems.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Northrop Grumman - Software Engineering Intern/Co-op</span><br>Worked a summer
+                                internship with
+                                Northrop Grumman. <br>Worked on projects with relation to AI/ML as well as some work
+                                with automation.
+                            </li>
+                            <li><span>Code Ninjas</span><br>Developing curricula and teaching students in the languages
+                                of Lua,
+                                JavaScript, and Python.<br>
+                                Responsible for overseeing the everyday management of the teachers as well as
+                                maintaining a productive
+                                environment for success.
+                            </li>
+                            <li><span>Coaching Director</span><br>Managing a team of coaching staff across several
+                                elementary
+                                schools in the Downey Unified School District.<br>
+                                Developing and implementing training methods to raise the skills of the athletes in our
+                                program
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of California Irvine</span><br>Summer 2021-Spring 2023 3.54 GPA</li>
+                            <li><span>Cerritos College</span><br>2018-2021 3.86 GPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="projects-list">
+                <div>
+                    <span class="fa-solid fa-code"></span>
+                    <h2>Website</h2>
+                    <p>This current website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="fa-solid fa-chart-simple"></span>
+                    <h2>ML AI Project</h2>
+                    <p>Created a machine learning AI to monitor log files generated from system tests.</p>
+                    <a href="https://www.northropgrumman.com/">Confidential Information</a>
+                </div>
+                <div>
+                    <span class="fa-solid fa-database"></span>
+                    <h2>Mafia Mayhem Game</h2>
+                    <p>A turn-based card game that has different roles and multiplayer capabilities created with C# and
+                        Unity.</p>
+                    <a href="https://spicy-churro.itch.io/mafia-meyham-prototype">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  contact  -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title ">Contact Me</h2>
+                    <div class="social-links">
+                        <a href="mailto:nrcorrea@uci.edu">
+                            <p><span class="fa-solid fa-envelope"></span> nrcorrea@uci.edu</p>
+                        </a>
+                        <a href="tel:56229944837">
+                            <p><span class="fa-solid fa-phone"></span>(562)299-4837</p>
+                        </a>
+                        <a href="https://www.instagram.com/nick_correa3/">
+                            <p><span class="fa-brands fa-instagram"></span>Instagram</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nicholas-correa-824698169/">
+                            <p><span class="fa-brands fa-linkedin"></span>LinkedIn</p>
+                        </a>
+                        <a href="https://github.com/nrcorrea">
+                            <p><span class="fa-brands fa-github"></span>GitHub</p>
+                        </a>
+                    </div>
+                    <button onclick="window.location.href='documents/2022.docx';" class="btn">Resume</button>
+                    <button onclick="window.location.href='documents/2022.docx';" class="btn">CV</button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <label for="Name">Name: </label>
+                        <input type="text" id="Name" name="Name" placeholder="Your Name" required>
+                        <label for="Email">Email:</label>
+                        <input type="email" id="Email" name="Email" placeholder="Your Email" required>
+                        <label for="Message">Message: </label>
+                        <textarea name="Message" id="Message" rows="11" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © Nicholas Correa. </p>
+        </footer>>
+    </section>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpMHJLv8ZwCAN3dPBAb99T4hXHOpPTZyjoZcLx-8mGMChDZhkZuzjHSQq_BdVZS1MS/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
