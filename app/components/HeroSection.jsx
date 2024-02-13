@@ -16,13 +16,13 @@ const HeroSection = () => {
           <div>
             <Link
               href="/#contact"
-              className="inline-block px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
+              className="inline-block px-6 py-3 w-full text-lg sm:w-fit rounded-full mr-4 mb-4 bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
             >
-              Hire Me
+              Contact Me
             </Link>
             <Link
               href="/#contact"
-              className="inline-block px-6 py-3 w-full sm:w-fit rounded-full bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
+              className="inline-block px-6 py-3 w-full text-lg sm:w-fit rounded-full bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
             >
               Download Resume
             </Link>
@@ -31,7 +31,7 @@ const HeroSection = () => {
         <div className="lg:col-span-5 col-span-1 self-center mt-4 lg:mt-0 lg:place-self-end">
           <div className="rounded-full border-8 border-[#2C3531] mx-auto lg:mx-0 h-[250px] w-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
             <Image
-              src="/images/nickPic2.jpg"
+              src="/images/gradPicClose.jpg"
               alt="image of Nicholas"
               layout="fill"
               className="object-cover rounded-full"
