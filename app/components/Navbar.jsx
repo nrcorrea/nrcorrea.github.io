@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="flex flex-wrap items-center justify-between mx-auto p-8">
-                <Link href="/" className="text-5xl text-black font-semibold">
+                <Link href="/" className="text-5xl text-[#116466] font-semibold">
                     LOGO
                 </Link>
                 <div className="menu hidden md:block md:w-auto" id="navbar">
