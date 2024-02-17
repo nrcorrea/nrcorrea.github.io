@@ -1,6 +1,10 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, {useState} from "react";
 import NavLink from "./NavLink";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
     { href: "#about", title: "About" },
@@ -9,9 +13,11 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+    const [navbarOpen, setNavbarOpen] = useState(false);
+
     return (
-        <nav>
-            <div className="flex flex-wrap items-center justify-between mx-auto p-8">
+        <nav className="fixed mx-auto bg-[#D1E8E2] bg-opacity-100 top-0 left-0 right-0">
+            <div className="flex container flex-wrap items-center justify-between mx-auto p-8">
                 <Link href="/" className="text-5xl text-black font-semibold">
                     LOGO
                 </Link>
@@ -28,18 +34,19 @@ const Navbar = () => {
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}
-                            className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
-                            <Bars3Icon className="h-5 w-5" />
+                            className="flex items-center px-3 py-2 border-2 border-[#2C3531] rounded text-[#2C3531] hover:text-[#D1E8E2]">
+                            <FontAwesomeIcon icon={faBars} />
                         </button>
                     ) : (
                         <button
                             onClick={() => setNavbarOpen(false)}
-                            className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
-                            <XMarkIcon className="h-5 w-5" />
+                            className="flex items-center px-3 py-2 border rounded text-[#2C3531] hover:text-black">
+                            <FontAwesomeIcon icon={faX} />
                         </button>
                     )}
                 </div>
             </div>
+            {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
         </nav>
     );
 };
