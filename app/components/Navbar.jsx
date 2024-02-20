@@ -16,9 +16,9 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <nav className="fixed mx-auto bg-[#D1E8E2] bg-opacity-100 top-0 left-0 right-0">
+        <nav className="fixed mx-auto bg-[#D1E8E2] bg-opacity-100 top-0 left-0 right-0 z-10">
             <div className="flex container flex-wrap items-center justify-between mx-auto p-8">
-                <Link href="/" className="text-5xl text-black font-semibold">
+                <Link href="/" className="text-5xl text-[#2C3531] font-semibold">
                     LOGO
                 </Link>
                 <div className="menu hidden md:block md:w-auto" id="navbar">
@@ -34,13 +34,13 @@ const Navbar = () => {
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}
-                            className="flex items-center px-3 py-2 border-2 border-[#2C3531] rounded text-[#2C3531] hover:text-[#D1E8E2]">
+                            className="flex items-center px-3 py-2 border-2 border-[#2C3531] rounded text-[#2C3531] hover:text-[#D9B08C]">
                             <FontAwesomeIcon icon={faBars} />
                         </button>
                     ) : (
                         <button
                             onClick={() => setNavbarOpen(false)}
-                            className="flex items-center px-3 py-2 border rounded text-[#2C3531] hover:text-black">
+                            className="flex items-center px-3 py-2 border-2 border-[#2C3531] rounded text-[#2C3531] hover:text-[#D9B08C]">
                             <FontAwesomeIcon icon={faX} />
                         </button>
                     )}

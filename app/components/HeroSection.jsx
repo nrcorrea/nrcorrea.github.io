@@ -6,10 +6,10 @@ const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="lg:col-span-7 col-span-1 place-self-center text-center sm:text-left">
-        <h1 className="text-[#116466] mb-4 text-4xl sm:text-5xl md:text-6xl font-extrabold">
+        <div className="lg:col-span-8 place-self-center text-center md:text-centerjustify-self-start">
+          <h1 className="text-[#116466] mb-4 text-5xl md:text-6xl lg:text-8xl lg:leading-normal font-extrabold">
             Hello I&apos;m Nick
-        </h1>
+          </h1>
           <p className="text-[#116466] text-base sm:text-lg mb-6 lg:text-xl">
             This is the hero section
           </p>
@@ -28,7 +28,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:col-span-5 col-span-1 self-center mt-4 lg:mt-0 lg:place-self-end">
+        <div className="lg:col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full border-8 border-[#2C3531] mx-auto lg:mx-0 h-[250px] w-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
             <Image
               src="/images/gradPicClose.jpg"
