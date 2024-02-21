@@ -11,7 +11,7 @@ const HeroSection = () => {
             Hello I&apos;m Nick
           </h1>
           <p className="text-[#116466] text-base sm:text-lg mb-6 lg:text-xl">
-            This is the hero section
+            Welcome to my website
           </p>
           <div>
             <Link
@@ -20,12 +20,14 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <Link
-              href="/#contact"
-              className="inline-block px-6 py-3 w-full text-lg sm:w-fit rounded-full bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
-            >
-              Download Resume
-            </Link>
+            <a
+                href="/documents/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 w-full text-lg sm:w-fit rounded-full bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
+                >
+                Download Resume
+                </a>
           </div>
         </div>
         <div className="lg:col-span-4 place-self-center mt-4 lg:mt-0">

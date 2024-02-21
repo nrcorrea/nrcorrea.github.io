@@ -65,7 +65,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-[#2C3531]" id="about">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1 border-8 border-[#2C3531] rounded-lg">
             <Image

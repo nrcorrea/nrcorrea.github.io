@@ -36,7 +36,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, liveUrl }) => {
       </div>
       <div className="text-[#2C3531] rounded-b-xl mt-3 bg-[#D1e8e2] py-6 px-4">
         <h5 className="font-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#7cada0]">{description}</p>
+        <p className="text-hover:text-[#D9B08C]">{description}</p>
       </div>
     </div>
   );
