@@ -21,7 +21,7 @@ const projectsData = [
     title: "Mafia Mayhem Game",
     description:
       "A web card game that is based on the popular party game, Mafia.",
-    image: "./images/projects/mafiaMayhem.png",
+    image: "./images/projects/mafiamayhem.png",
     tag: ["All", "Game"],
     gitUrl: "https://github.com/nrcorrea/MafiaMayhem",
     liveUrl: "https://spicy-churro.itch.io/mafia-meyham-prototype",
