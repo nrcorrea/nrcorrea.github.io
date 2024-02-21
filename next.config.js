@@ -12,10 +12,6 @@ const nextConfig = {
  
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
-  images: {
-    loader: 'custom',
-    loaderFile: './my-loader.js',
-  },
 }
  
 module.exports = nextConfig
