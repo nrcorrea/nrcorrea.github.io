@@ -14,7 +14,7 @@ const nextConfig = {
   // distDir: 'dist',
   images: {
     loader: 'custom',
-    loaderFile: './my-loader.ts',
+    loaderFile: './my-loader.js',
   },
 }
  
