@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="lg:col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full border-8 border-[#2C3531] mx-auto lg:mx-0 h-[250px] w-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
             <Image
-              src="public/images/gradPicClose.jpg"
+              src="./images/gradPicClose.jpg"
               alt="image of Nicholas"
               layout="fill"
               className="object-cover rounded-full"

@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className="fixed mx-auto bg-[#D1E8E2] bg-opacity-100 top-0 left-0 right-0 z-10">
             <div className="flex container flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="text-5xl text-[#2C3531] font-semibold">
-                    <Image src="public/images/NC.png" alt="logo" className="border-4 border-[#2C3531] rounded-lg" width={100} height={100} />
+                    <Image src="./images/NC.png" alt="logo" className="border-4 border-[#2C3531] rounded-lg" width={100} height={100} />
                 </Link>
                 <div className="menu hidden md:block md:w-auto" id="navbar">
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
