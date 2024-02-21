@@ -4,7 +4,7 @@ const HeaderSection = () => {
   return (
     <header 
       className="w-full h-screen bg-no-repeat bg-cover bg-center flex items-center justify-center" 
-      style={{ backgroundImage: `url(${"images/headerImage.jpg"})` }}
+      style={{ backgroundImage: `url(${"public/images/headerImage.jpg"})` }}
     >
       <div className="text-center">
         <h1 className="text-6xl md:text-8xl font-bold text-amber-50" style={{ textShadow: '6px 6px 6px rgba(0, 0, 0, 0.5)' }}>Nicholas Correa</h1>

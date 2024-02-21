@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/nrcorrea.github.io/',
-    assetPrefix: '/nrcorrea.github.io/',
+    output: "export",
 };
 
 export default nextConfig;

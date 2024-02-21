@@ -11,7 +11,7 @@ const projectsData = [
     title: "YourEdvisor",
     description:
       "A web application that helps students plan their academic journey. (Currently Private)",
-    image: "/images/projects/yourEdvisor.png",
+    image: "public/images/projects/yourEdvisor.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/varijjhaveri/YourEdvisor",
     liveUrl: "/",
@@ -21,7 +21,7 @@ const projectsData = [
     title: "Mafia Mayhem Game",
     description:
       "A web card game that is based on the popular party game, Mafia.",
-    image: "/images/projects/mafiaMayhem.png",
+    image: "public/images/projects/mafiaMayhem.png",
     tag: ["All", "Game"],
     gitUrl: "https://github.com/nrcorrea/MafiaMayhem",
     liveUrl: "https://spicy-churro.itch.io/mafia-meyham-prototype",
@@ -31,7 +31,7 @@ const projectsData = [
     title: "Akuma E-Commerce",
     description:
       "An e-commerce website that sells art and clothing. (Currently in Development)",
-    image: "/images/projects/akumaEcommerce.jpg",
+    image: "public/images/projects/akumaEcommerce.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/nrcorrea/akuma",
     liveUrl: "/",

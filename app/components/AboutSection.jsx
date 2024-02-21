@@ -69,7 +69,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1 border-8 border-[#2C3531] rounded-lg">
             <Image
-              src="/images/japan2.jpg"
+              src="public/images/japan2.jpg"
               alt="Japan Nick"
               layout="responsive"
               width={400}
