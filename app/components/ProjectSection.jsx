@@ -78,7 +78,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Game"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -93,7 +93,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              liveUrl={project.lievUrl}
+              liveUrl={project.liveUrl}
             />
           </motion.li>
         ))}
