@@ -7,8 +7,8 @@ const HeaderSection = () => {
       style={{ backgroundImage: `url(${"./images/headerImage.jpg"})` }}
     >
       <div className="text-center">
-        <h1 className="text-6xl md:text-8xl font-bold text-amber-50" style={{ textShadow: '6px 6px 6px rgba(0, 0, 0, 0.5)' }}>Nicholas Correa</h1>
-        <p className="text-4xl text-amber-50 mt-4" style={{ textShadow: '6px 6px 6px rgba(0, 0, 0, 0.5)' }}>Software Engineer</p>
+        <h1 className="text-6xl md:text-8xl font-bold text-amber-50" style={{ textShadow: '6px 6px 6px rgba(0, 0, 0, 0.5)' }}>NICHOLAS CORREA</h1>
+        <p className="text-4xl text-amber-50 mt-4" style={{ textShadow: '6px 6px 6px rgba(0, 0, 0, 0.5)' }}>SOFTWARE ENGINEER</p>
       </div>
     </header>
   );

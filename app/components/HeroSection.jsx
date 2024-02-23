@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="lg:col-span-8 place-self-center text-center md:text-centerjustify-self-start">
           <h1 className="text-[#116466] mb-4 text-5xl md:text-6xl lg:text-8xl lg:leading-normal font-extrabold">
-            Hello I&apos;m Nick
+            Hello, I&apos;m Nick
           </h1>
           <p className="text-[#116466] text-base sm:text-lg mb-6 lg:text-xl">
             Welcome to my website

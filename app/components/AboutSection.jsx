@@ -39,7 +39,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>University of California, Irvine - 5.34 GPA</li>
+        <li>University of California, Irvine - 3.54 GPA</li>
         <li>Cerritos College - 3.86 GPA</li>
       </ul>
     ),
