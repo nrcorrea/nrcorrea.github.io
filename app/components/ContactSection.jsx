@@ -72,7 +72,7 @@ const ContactSection = () => {
             </div>
             <div>
             <a
-                href="/documents/Resume.pdf"
+                href="/documents/Resume.docx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 w-full text-lg sm:w-fit rounded-full bg-[#D1e8e2] hover:bg-[#57726b] hover:text-white text-[#2C3531] border-4 border-[#2C3531]"
